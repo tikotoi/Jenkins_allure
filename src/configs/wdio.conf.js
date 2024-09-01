@@ -36,7 +36,7 @@ export const config = {
   },
   onComplete: async function () {
     const reportError = new Error("Could not generate Allure report");
-    const generation = allure(["generate", "allure-results", "--single-file"]);
+    const generation = allure(["generate", "allure-results", "--clean"]);
     return new Promise((resolve, reject) => {
       const generationTimeout = setTimeout(() => reject(reportError), 5000);
       generation.on("exit", function (exitCode) {
