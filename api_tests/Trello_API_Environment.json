@@ -1,0 +1,33 @@
+{
+	"id": "31cecc6d-cde6-4a4c-a854-eda61db9c714",
+	"name": "Trello API",
+	"values": [
+		{
+			"key": "key",
+			"value": "318917d083e709baadc0694b2da7903c",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "ATTAe8f84dd0dfa1e1c5938e388f963f13d2aa4b0d3a46dd412c4e92b3527d731d417BF85F4B",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "name",
+			"value": "API Testing",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "66cc918bfb8670797ea49461",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-08-26T15:31:25.855Z",
+	"_postman_exported_using": "Postman/11.9.2"
+}
